@@ -10,4 +10,4 @@ calculates the Coleman-Liau index of a text to detect its reading level.
 takes a polyalphabetic key as a command-line argument and prompts the user to input the plaintext. Encrypts using the Vigenere cipher and outputs the ciphertext. Rejects non-alphabetic keys.
 
 #substitution.c
-takes a 26-character polyalphabetic key (rejects if any characters repeated or characters not alphabetic) and prompts the user to input the plaintext. Encrypts using the substitution cipher and outputs the plaintext.
+takes a 26-character polyalphabetic key (rejects if any characters repeated or characters not alphabetic) and prompts the user to input the plaintext. Encrypts using the substitution cipher and outputs the ciphertext.
