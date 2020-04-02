@@ -165,7 +165,6 @@ void sort_pairs(void)
             {
                 sortedpairs[sortcounter].winner = pairs[j].winner;
                 sortedpairs[sortcounter].loser = pairs[j].loser;
-                //printf("%s%s ", candidates[sortedpairs[sortcounter].winner], candidates[sortedpairs[sortcounter].loser]);
                 sortcounter ++;
             }
             if (sortcounter == pair_count)
@@ -174,7 +173,6 @@ void sort_pairs(void)
                 {
                     pairs[k].winner = sortedpairs[k].winner;
                     pairs[k].loser = sortedpairs[k].loser;
-                    printf("%s%s ", candidates[pairs[k].winner], candidates[pairs[k].loser]);
                 }
                 return;
             }
@@ -193,7 +191,6 @@ void lock_pairs(void)
         if (cycle(pairs[i].winner))
         {
             locked[pairs[i].winner][pairs[i].loser] = false;
-            //printf("#");
         }
     }
     return;
