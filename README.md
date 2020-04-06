@@ -14,3 +14,6 @@ takes a 26-character polyalphabetic key (rejects if any characters repeated or c
 
 #tideman.c 
 takes the candidates (command-line argument) and the number of voters as its input. Each voter ranks the candidates in their preferred order. Uses graph theory, recursion and the Tideman algorithm to calculate and output the Condorcet winner of the election.
+
+#recover.c
+recovers JPEGS (if extractable) from a (partially corrupted) file and outputs them. Takes the name of the corrupted file in the command-line argument and outputs the recovered JPEGS(if any).
